@@ -1,0 +1,16 @@
+{
+  "bin": {},
+  "pkg-build": {
+    "/home/lin/computer_science/cangjie_pj/src": {
+      "package": "cangjie_pj",
+      "isMacro": false,
+      "accessLevel": "public",
+      "timeStamp": 1775058459,
+      "dependencies": [],
+      "std-dependencies": [],
+      "testUsed": false,
+      "mockUsed": false
+    }
+  },
+  "pkg-test": {}
+}
