@@ -3,12 +3,20 @@
     "cangjie_pj": {
       "rootPackageName": "cangjie_pj",
       "fileNameHash": "-4191404547611650178",
-      "timeStamp": 1775142546,
+      "timeStamp": 1776071935,
       "isBuilt": true,
       "exeName": "main",
+      "hasSubPkgs": true
+    },
+    "cangjie_pj.llm_caller": {
+      "rootPackageName": "cangjie_pj",
+      "fileNameHash": "7409011503520394280",
+      "timeStamp": 1776071390,
+      "isBuilt": true,
+      "exeName": "",
       "hasSubPkgs": false
     }
   },
-  "jsonHash": "4349102220628605235",
+  "jsonHash": "1729690317605245329",
   "rootPackageName": "cangjie_pj"
 }
