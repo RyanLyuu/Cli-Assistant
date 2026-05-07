@@ -1,4 +1,4 @@
-package cangjie_pj.llm_caller
+package hamster_commander.llm_caller
 
 import stdx.serialization.serialization.*
 import stdx.encoding.json.*

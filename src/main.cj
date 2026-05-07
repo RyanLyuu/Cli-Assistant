@@ -1,7 +1,7 @@
 //空目录cjpm init 自动生成src及main.cj(如果已有自建src, 则行为仅有构建cjpm.toml)
-package cangjie_pj
+package hamster_commander
 
-import cangjie_pj.llm_caller.*
+import hamster_commander.llm_caller.*
 
 main(args: Array<String>): Int64 {
     if(args.isEmpty()){ 

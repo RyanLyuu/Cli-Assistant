@@ -1,6 +1,6 @@
-package cangjie_pj
+package hamster_commander
 
-import cangjie_pj.llm_caller.*
+import hamster_commander.llm_caller.*
 
 public class Commander{
     let apiKey: String 

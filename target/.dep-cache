@@ -5235,7 +5235,618 @@
       ],
       "testUsed": false,
       "mockUsed": false
+    },
+    "/home/lin/computer_science/hamster_commander/src/llm_caller": {
+      "package": "hamster_commander.llm_caller",
+      "isMacro": false,
+      "accessLevel": "public",
+      "timeStamp": 1776070892,
+      "dependencies": [
+        {
+          "orPackage": "",
+          "package": "stdx.encoding.json",
+          "isStd": false,
+          "imports": [
+            {
+              "file": "/home/lin/computer_science/hamster_commander/src/llm_caller/general_request.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/hamster_commander/src/llm_caller/general_success_response.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/hamster_commander/src/llm_caller/model_arts_llm_caller.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/hamster_commander/src/llm_caller/spark_error_response.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/hamster_commander/src/llm_caller/spark_llm_caller.cj"
+            }
+          ]
+        },
+        {
+          "orPackage": "",
+          "package": "stdx.net.http",
+          "isStd": false,
+          "imports": [
+            {
+              "file": "/home/lin/computer_science/hamster_commander/src/llm_caller/model_arts_llm_caller.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/hamster_commander/src/llm_caller/spark_llm_caller.cj"
+            }
+          ]
+        },
+        {
+          "orPackage": "",
+          "package": "stdx.net.tls",
+          "isStd": false,
+          "imports": [
+            {
+              "file": "/home/lin/computer_science/hamster_commander/src/llm_caller/model_arts_llm_caller.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/hamster_commander/src/llm_caller/spark_llm_caller.cj"
+            }
+          ]
+        },
+        {
+          "orPackage": "",
+          "package": "stdx.serialization.serialization",
+          "isStd": false,
+          "imports": [
+            {
+              "file": "/home/lin/computer_science/hamster_commander/src/llm_caller/general_request.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/hamster_commander/src/llm_caller/general_success_response.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/hamster_commander/src/llm_caller/model_arts_llm_caller.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/hamster_commander/src/llm_caller/spark_error_response.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/hamster_commander/src/llm_caller/spark_llm_caller.cj"
+            }
+          ]
+        }
+      ],
+      "std-dependencies": [
+        {
+          "orPackage": "",
+          "package": "std.collection",
+          "isStd": true,
+          "imports": [
+            {
+              "file": "/home/lin/computer_science/hamster_commander/src/llm_caller/model_arts_llm_caller.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/hamster_commander/src/llm_caller/spark_llm_caller.cj"
+            }
+          ]
+        },
+        {
+          "orPackage": "",
+          "package": "std.env",
+          "isStd": true,
+          "imports": [
+            {
+              "file": "/home/lin/computer_science/hamster_commander/src/llm_caller/i_llm_caller.cj"
+            }
+          ]
+        },
+        {
+          "orPackage": "",
+          "package": "std.io",
+          "isStd": true,
+          "imports": [
+            {
+              "file": "/home/lin/computer_science/hamster_commander/src/llm_caller/model_arts_llm_caller.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/hamster_commander/src/llm_caller/spark_llm_caller.cj"
+            }
+          ]
+        },
+        {
+          "orPackage": "",
+          "package": "std.time",
+          "isStd": true,
+          "imports": [
+            {
+              "file": "/home/lin/computer_science/hamster_commander/src/llm_caller/model_arts_llm_caller.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/hamster_commander/src/llm_caller/spark_llm_caller.cj"
+            }
+          ]
+        }
+      ],
+      "testUsed": false,
+      "mockUsed": false
+    },
+    "/home/lin/computer_science/hamster_commander/src": {
+      "package": "hamster_commander",
+      "isMacro": false,
+      "accessLevel": "public",
+      "timeStamp": 1776494890,
+      "dependencies": [
+        {
+          "orPackage": "",
+          "package": "hamster_commander.llm_caller",
+          "isStd": false,
+          "imports": [
+            {
+              "file": "/home/lin/computer_science/hamster_commander/src/commander.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/hamster_commander/src/main.cj"
+            }
+          ]
+        }
+      ],
+      "std-dependencies": [
+        {
+          "orPackage": "",
+          "package": "std.env",
+          "isStd": true,
+          "imports": [
+            {
+              "file": "/home/lin/computer_science/hamster_commander/src/secret_store.cj"
+            }
+          ]
+        },
+        {
+          "orPackage": "",
+          "package": "std.fs",
+          "isStd": true,
+          "imports": [
+            {
+              "file": "/home/lin/computer_science/hamster_commander/src/secret_store.cj"
+            }
+          ]
+        },
+        {
+          "orPackage": "",
+          "package": "std.io",
+          "isStd": true,
+          "imports": [
+            {
+              "file": "/home/lin/computer_science/hamster_commander/src/secret_store.cj"
+            }
+          ]
+        }
+      ],
+      "testUsed": false,
+      "mockUsed": false
+    },
+    "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller": {
+      "package": "hamster_commander.llm_caller",
+      "isMacro": false,
+      "accessLevel": "public",
+      "timeStamp": 1776070892,
+      "dependencies": [
+        {
+          "orPackage": "",
+          "package": "stdx.encoding.json",
+          "isStd": false,
+          "imports": [
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/general_request.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/general_success_response.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/model_arts_llm_caller.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/spark_error_response.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/spark_llm_caller.cj"
+            }
+          ]
+        },
+        {
+          "orPackage": "",
+          "package": "stdx.net.http",
+          "isStd": false,
+          "imports": [
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/model_arts_llm_caller.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/spark_llm_caller.cj"
+            }
+          ]
+        },
+        {
+          "orPackage": "",
+          "package": "stdx.net.tls",
+          "isStd": false,
+          "imports": [
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/model_arts_llm_caller.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/spark_llm_caller.cj"
+            }
+          ]
+        },
+        {
+          "orPackage": "",
+          "package": "stdx.serialization.serialization",
+          "isStd": false,
+          "imports": [
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/general_request.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/general_success_response.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/model_arts_llm_caller.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/spark_error_response.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/spark_llm_caller.cj"
+            }
+          ]
+        }
+      ],
+      "std-dependencies": [
+        {
+          "orPackage": "",
+          "package": "std.collection",
+          "isStd": true,
+          "imports": [
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/model_arts_llm_caller.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/spark_llm_caller.cj"
+            }
+          ]
+        },
+        {
+          "orPackage": "",
+          "package": "std.env",
+          "isStd": true,
+          "imports": [
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/i_llm_caller.cj"
+            }
+          ]
+        },
+        {
+          "orPackage": "",
+          "package": "std.io",
+          "isStd": true,
+          "imports": [
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/model_arts_llm_caller.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/spark_llm_caller.cj"
+            }
+          ]
+        },
+        {
+          "orPackage": "",
+          "package": "std.time",
+          "isStd": true,
+          "imports": [
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/model_arts_llm_caller.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/spark_llm_caller.cj"
+            }
+          ]
+        }
+      ],
+      "testUsed": false,
+      "mockUsed": false
+    },
+    "/home/lin/computer_science/Proj/hamster_commander/src": {
+      "package": "hamster_commander",
+      "isMacro": false,
+      "accessLevel": "public",
+      "timeStamp": 1776820181,
+      "dependencies": [
+        {
+          "orPackage": "",
+          "package": "hamster_commander.llm_caller",
+          "isStd": false,
+          "imports": [
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/commander.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/main.cj"
+            }
+          ]
+        }
+      ],
+      "std-dependencies": [
+        {
+          "orPackage": "",
+          "package": "std.env",
+          "isStd": true,
+          "imports": [
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/secret_store.cj"
+            }
+          ]
+        },
+        {
+          "orPackage": "",
+          "package": "std.fs",
+          "isStd": true,
+          "imports": [
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/secret_store.cj"
+            }
+          ]
+        },
+        {
+          "orPackage": "",
+          "package": "std.io",
+          "isStd": true,
+          "imports": [
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/secret_store.cj"
+            }
+          ]
+        }
+      ],
+      "testUsed": false,
+      "mockUsed": false
     }
   },
-  "pkg-test": {}
+  "pkg-test": {
+    "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller": {
+      "package": "hamster_commander.llm_caller",
+      "isMacro": false,
+      "accessLevel": "public",
+      "timeStamp": 1776070892,
+      "dependencies": [
+        {
+          "orPackage": "",
+          "package": "stdx.encoding.json",
+          "isStd": false,
+          "imports": [
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/general_request.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/general_success_response.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/model_arts_llm_caller.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/spark_error_response.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/spark_llm_caller.cj"
+            }
+          ]
+        },
+        {
+          "orPackage": "",
+          "package": "stdx.net.http",
+          "isStd": false,
+          "imports": [
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/model_arts_llm_caller.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/spark_llm_caller.cj"
+            }
+          ]
+        },
+        {
+          "orPackage": "",
+          "package": "stdx.net.tls",
+          "isStd": false,
+          "imports": [
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/model_arts_llm_caller.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/spark_llm_caller.cj"
+            }
+          ]
+        },
+        {
+          "orPackage": "",
+          "package": "stdx.serialization.serialization",
+          "isStd": false,
+          "imports": [
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/general_request.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/general_success_response.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/model_arts_llm_caller.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/spark_error_response.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/spark_llm_caller.cj"
+            }
+          ]
+        }
+      ],
+      "std-dependencies": [
+        {
+          "orPackage": "",
+          "package": "std.collection",
+          "isStd": true,
+          "imports": [
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/model_arts_llm_caller.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/spark_llm_caller.cj"
+            }
+          ]
+        },
+        {
+          "orPackage": "",
+          "package": "std.env",
+          "isStd": true,
+          "imports": [
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/i_llm_caller.cj"
+            }
+          ]
+        },
+        {
+          "orPackage": "",
+          "package": "std.io",
+          "isStd": true,
+          "imports": [
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/model_arts_llm_caller.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/spark_llm_caller.cj"
+            }
+          ]
+        },
+        {
+          "orPackage": "",
+          "package": "std.time",
+          "isStd": true,
+          "imports": [
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/model_arts_llm_caller.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/spark_llm_caller.cj"
+            }
+          ]
+        }
+      ],
+      "testUsed": false,
+      "mockUsed": false
+    },
+    "/home/lin/computer_science/Proj/hamster_commander/src/test": {
+      "package": "hamster_commander.test",
+      "isMacro": false,
+      "accessLevel": "public",
+      "timeStamp": 1778170753,
+      "dependencies": [
+        {
+          "orPackage": "",
+          "package": "hamster_commander",
+          "isStd": false,
+          "imports": [
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/test/secret_store_test.cj"
+            }
+          ]
+        },
+        {
+          "orPackage": "",
+          "package": "stdx.crypto.crypto",
+          "isStd": false,
+          "imports": [
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/test/secret_store_test.cj"
+            }
+          ]
+        }
+      ],
+      "std-dependencies": [
+        {
+          "orPackage": "",
+          "package": "std.unittest",
+          "isStd": true,
+          "imports": [
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/test/secret_store_test.cj"
+            }
+          ]
+        },
+        {
+          "orPackage": "",
+          "package": "std.unittest.testmacro",
+          "isStd": true,
+          "imports": [
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/test/secret_store_test.cj"
+            }
+          ]
+        }
+      ],
+      "testUsed": true,
+      "mockUsed": false
+    },
+    "/home/lin/computer_science/Proj/hamster_commander/src": {
+      "package": "hamster_commander",
+      "isMacro": false,
+      "accessLevel": "public",
+      "timeStamp": 1778168315,
+      "dependencies": [
+        {
+          "orPackage": "",
+          "package": "hamster_commander.llm_caller",
+          "isStd": false,
+          "imports": [
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/commander.cj"
+            },
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/main.cj"
+            }
+          ]
+        }
+      ],
+      "std-dependencies": [
+        {
+          "orPackage": "",
+          "package": "std.env",
+          "isStd": true,
+          "imports": [
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/secret_store.cj"
+            }
+          ]
+        },
+        {
+          "orPackage": "",
+          "package": "std.fs",
+          "isStd": true,
+          "imports": [
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/secret_store.cj"
+            }
+          ]
+        },
+        {
+          "orPackage": "",
+          "package": "std.io",
+          "isStd": true,
+          "imports": [
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/secret_store.cj"
+            }
+          ]
+        }
+      ],
+      "testUsed": false,
+      "mockUsed": false
+    }
+  }
 }
