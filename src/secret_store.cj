@@ -19,8 +19,6 @@ class SecretStore{
                 secretStoreFileWriter.write(value)
         }
 
-
-        throw Exception("Not implemented yet")
     }
 
     public func get(key: String): Option<String>{
