@@ -20,4 +20,4 @@ jobs:
       - name: download
         run: wget  -O cangjie-sdk-linux-x64-1.0.5.tar.gz "https://cangjie-lang.cn/v1/files/auth/downLoad?nsId=142267&fileName=cangjie-sdk-linux-x64-1.0.5.tar.gz&objectKey=698acf46bd66ae22b62330b0" && tar -xzf cangjie-sdk-linux-x64-1.0.5.tar.gz
       - name: test
-        run: . cangjie/envsetup.sh && cjc --version && cd "$GITHUB_WORKSPACE" && export CANGJIE_STDX_PATH="$GITHUB_WORKSPACE/cangjie-sdk-linux-x64-1.0.5/cangjie/linux_x86_64_cjnative/dynamic/stdx" &&cjpm update && cjpm build && cjpm test
+        run: . cangjie/envsetup.sh && cjc --version && cd "$GITHUB_WORKSPACE" && export CANGJIE_STDX_PATH="$GITHUB_WORKSPACE/cangjie-sdk-linux-x64-1.0.5/cangjie" &&cjpm update && cjpm build && cjpm test
