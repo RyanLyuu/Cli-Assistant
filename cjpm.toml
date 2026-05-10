@@ -1,6 +1,6 @@
 [package]
   cjc-version = "1.0.5"
-  name = "cangjie_pj"
+  name = "hamster_commander"
   description = "nothing here"
   version = "1.0.0"
   target-dir = ""
@@ -11,3 +11,9 @@
   package-configuration = {}
 
 [dependencies]
+
+
+[target]
+  [target.x86_64-unknown-linux-gnu]
+    [target.x86_64-unknown-linux-gnu.bin-dependencies]
+      path-option = [ "${CANGJIE_STDX_PATH}/linux_x86_64_cjnative/dynamic/stdx" ]
