@@ -1,0 +1,23 @@
+name: cangjieTest
+
+on:
+  push:
+    branches: 
+      - master
+      - dev
+  pull_request:
+    branches: [ "master" ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: download
+        run: wget "https://download.cangjie-lang.cn/cangjie/1.0.5/cangjie-sdk-linux-x64-1.0.5.tar.gz" && tar -xzf cangjie-sdk-linux-x64-1.0.5.tar.gz
+      - name: test
+        run: . cangjie/envsetup.sh && cjc --version && cd repo_workspace && cjpm update && cjpm build && cjpm test
