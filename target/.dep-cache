@@ -5426,8 +5426,18 @@
       "package": "hamster_commander.llm_caller",
       "isMacro": false,
       "accessLevel": "public",
-      "timeStamp": 1776070892,
+      "timeStamp": 1778393201,
       "dependencies": [
+        {
+          "orPackage": "",
+          "package": "hamster_commander",
+          "isStd": false,
+          "imports": [
+            {
+              "file": "/home/lin/computer_science/Proj/hamster_commander/src/llm_caller/call_root.cj"
+            }
+          ]
+        },
         {
           "orPackage": "",
           "package": "stdx.encoding.json",
@@ -5557,7 +5567,7 @@
       "package": "hamster_commander",
       "isMacro": false,
       "accessLevel": "public",
-      "timeStamp": 1776820181,
+      "timeStamp": 1778389912,
       "dependencies": [
         {
           "orPackage": "",
